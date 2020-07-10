@@ -218,3 +218,15 @@ select {
     }
   }
 }
+
+.form {
+  &-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+    .checkbox {
+      font-weight: 400;
+    }
+  }
+}
