@@ -661,6 +661,10 @@ a:hover {
   line-height: 28px !important;
 }
 
+.select2-selection__arrow {
+  display: none !important;
+}
+
 .select2-selection__choice {
   color: var(--primary);
   border: 1px solid rgba(255, 255, 255, 0.07) !important;
@@ -692,5 +696,13 @@ a:hover {
 .select2-search__field {
   color: #fff !important;
   line-height: 38px;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  padding: 0 0.6rem !important;
+}
+
+.select2-search__field:focus-within {
+  color: var(--primary) !important;
 }
 /*# sourceMappingURL=style.css.map */

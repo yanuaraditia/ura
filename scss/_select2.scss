@@ -17,6 +17,9 @@
                 line-height: 28px!important;
             }
         }
+        &__arrow {
+            display: none!important;
+        }
         &__choice {
             color: $primary;
             border: 1px solid rgba($color: #fff, $alpha: .07)!important;
@@ -49,5 +52,12 @@
     &-search__field {
         color: #fff!important;
         line-height: 38px;
+        background: transparent!important;
+        border: none!important;
+        outline: none!important;
+        padding: 0 .6rem!important;
+        &:focus-within {
+            color: $primary!important;
+        }
     }
 }
