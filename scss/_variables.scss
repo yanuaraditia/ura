@@ -6,6 +6,7 @@ $width : var(--width);
 $body : #f1f1f1;
 $danger : var(--danger);
 $colormod : success, secondary, danger, info, warning, primary;
+$oauth : (google : #fff, github: #333, facebook: #3b5988);
 :root {
     --primary: #3ddd85;
     --success: #00e676;
