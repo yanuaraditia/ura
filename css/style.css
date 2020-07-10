@@ -1,0 +1,42 @@
+:root {
+  --primary: #3ddd85; }
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Book.woff2") format("woff2"), url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Book.woff") format("woff"), url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Book.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-BookItalic.woff2") format("woff2"), url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-BookItalic.woff") format("woff"), url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-BookItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Medium.woff2") format("woff2"), url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Medium.woff") format("woff"), url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Bold.woff2") format("woff2"), url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Bold.woff") format("woff"), url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Black.woff2") format("woff2"), url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Black.woff") format("woff"), url("https://48vo7843c3543dkn9cvt8sl1-wpengine.netdna-ssl.com/wp-content/themes/wibbitz/assets/fonts/CircularStd-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }
+
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }

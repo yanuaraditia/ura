@@ -1,0 +1,26 @@
+{
+  "name": "mpd2",
+  "version": "1.0.0",
+  "description": "MP2",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "parallelshell": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css",
+    "start": "parallelshell \"npm run scss && npm run scss -- -w\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanuaraditia/musped2.git"
+  },
+  "author": "yanuaraditia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanuaraditia/musped2/issues"
+  },
+  "homepage": "https://github.com/yanuaraditia/musped2#readme"
+}

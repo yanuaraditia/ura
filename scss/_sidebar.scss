@@ -1,0 +1,81 @@
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition-property: cubic-bezier(.88,-0.08,.12,.78);
+    transition: all .2s ease-in-out;
+    z-index: 9999;
+    @media screen and (max-width: 1023px) {
+        right: 0;
+        bottom: 0;
+        &:not(.show) {
+            transform: translateX(-110vw);
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        width: $width;
+        height: 100vh;
+        border-right: 1px solid rgba($color: #fff, $alpha: .05);
+        &:not(.show) {
+            transform: translateX(-40vw);
+        }
+    }
+    background:$dark;
+    overflow-y: auto;
+    &-menu {
+        .list-group {
+            &-item {
+                background: transparent;
+                border-radius: 0;
+                border: none;
+                padding: 0;
+                .nav-link {
+                    padding: .75rem 1.25rem;
+                    svg {
+                        width: 20px;
+                        height: 20px;
+                        margin-right: 10px;
+                        transform: translateY(-1px);
+                    }
+                }
+                &.active {
+                    background: $primary;
+                    .nav-link {
+                        color: $dark;
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                    @media screen and (min-width: 1024px) {
+                        border-radius: 0 100px 100px 0;
+                    }
+                }
+            }
+        }
+    }
+    &-user {
+        margin-bottom: 30px;
+        margin-top: 30px;
+        &-image {
+            margin-bottom: 10px;
+            position: relative;
+            img {
+                width: 70px;
+                height: 70px;
+                border-radius: 100%;
+            }
+            a {
+                color: #fff;
+                position: absolute;
+                transform: translateX(-20px) translateY(45px);
+                svg {
+                    width: 17px;
+                    height: 17px;
+                }
+            }
+        }
+    }
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+}

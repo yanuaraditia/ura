@@ -1,0 +1,42 @@
+html {
+    background: $dark;
+}
+body {
+    background: $dark;
+    color: $body;
+    font-family: 'CircularStd','Segoe UI',Arial, Helvetica, sans-serif;
+    &.nav-hide {
+        @media screen and (min-width: 1024px) {
+            .wrapper {
+                padding-left: 0!important;
+            }
+            .content {
+                .navbar {
+                    left: 0!important;
+                }
+            }
+        }
+    }
+}
+.wrapper {
+    position: relative;
+    @media screen and (min-width: 1024px) {
+        transition: all .2s ease-in-out;
+        padding-left: $width;
+    }
+}
+a {
+    color: #f5f5f5;
+    transition: all .2s ease-in-out;
+    &:hover {
+        color: $primary;
+    }
+}
+.card {
+    background: transparent;
+    border-radius: 12px;
+    border:2px solid rgba($color: #fff, $alpha: .05);
+    &-header {
+        padding: 1.25rem;
+    }
+}
